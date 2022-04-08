@@ -30,7 +30,7 @@ header nav ul {
     display: flex;
 }
 
-header nav li {
+header nav a {
     /* Adds left spacing between the li's */
     padding-left: 0.88rem;
     opacity: 0.55;
@@ -58,5 +58,37 @@ header .navbar .desktop {
 .academy {
     display: flex;
     opacity: 0.3;
-    
+}
+
+header .navbar .mobile {
+    /* Set mobile to no display by default */
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    header .colmaracademy {
+        display: none;
+    }
+
+    header .navbar .desktop {
+        display: none;
+    }
+
+    header .navbar .mobile {
+        display: block;
+        width: 100%;
+    }
+
+    header nav a {
+        opacity: 1;
+    }
+
+    header nav ul {
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+        flex-wrap: wrap;
+        
+    }
+
 }
