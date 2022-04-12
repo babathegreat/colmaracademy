@@ -65,6 +65,7 @@ header .navbar .mobile {
     display: none;
 }
 
+/* Mobile version ruleset */
 @media only screen and (max-width: 600px) {
     header .colmaracademy {
         display: none;
@@ -91,70 +92,88 @@ header .navbar .mobile {
         margin-left: 1.3rem; 
     }
 
+    main .learn-new .students-img {
+        max-width: 100%;
+    }
+
+    main .learn-new .students-cta {
+        max-width: 100%;
+    }
+
+    main.learn-new {
+        margin-top: 0;
+    }
+
 }
+
+
+/* Desktop version ruleset */
+@media only screen and (min-width: 601px) {    
+
+    main .learn-new {
+        margin-top: 4rem;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-items: center;
+        flex-wrap: wrap;
+        background-color:lightgray;
+        width: 100%;
+    }
+
+    main .learn-new .students-img {
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        max-width: 60%;
+        padding: 1.7rem 1.3rem;
+    }
+
+    main .learn-new .students-cta {
+        display: flex;
+        flex: 1;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-items: center;
+        align-items: flex-start;
+        max-width: 40%;
+        margin: auto 5rem auto 1.3rem;
+    }
+
+    main .learn-new .students-cta h1 {
+        font-size: 2rem;
+        font-weight: 900;
+        color: black;
+        opacity: 0.7;
+        line-height: 1.15;
+    }
+
+    main .learn-new .students-cta h4 {
+        font-size: 1.15rem;
+        font-weight: 500;
+        color: black;
+        opacity: 0.7;
+        line-height: 1.35;
+        margin-top: 1.5rem;
+    }
+
+    main .learn-new .students-cta .start-button {
+        display: block;
+        width: 100%;
+        margin-top: 1.5rem;
+        padding: 0.44rem;
+        text-align: center;
+        font-size: 0.85rem;
+        color:white;
+        background-color:black;
+        opacity: 0.7;
+        border: none;
+    }
+
+}
+
 
 main .main-container {
     display: flex;
-    flex-direction: row;
-    width: 100%;
-}
-
-main .learn-new {
-    margin-top: 4rem;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-items: center;
-    flex-wrap: wrap;
-    background-color:lightgray;
-    width: 100%;
-}
-
-main .students-img {
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-    max-width: 60%;
-    padding: 1.7rem 1.3rem;
-}
-
-main .students-cta {
-    display: flex;
-    flex: 1;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-items: center;
-    align-items: flex-start;
-    max-width: 40%;
-    margin: auto 5rem auto 1.3rem;
-}
-
-main .students-cta h1 {
-    font-size: 2rem;
-    font-weight: 900;
-    color: black;
-    opacity: 0.7;
-    line-height: 1.15;
-}
-
-main .students-cta h4 {
-    font-size: 1.15rem;
-    font-weight: 500;
-    color: black;
-    opacity: 0.7;
-    line-height: 1.35;
-    margin-top: 1.5rem;
-}
-
-main .students-cta .start-button {
-    display: block;
-    width: 100%;
-    margin-top: 1.5rem;
-    padding: 0.44rem;
-    text-align: center;
-    font-size: 0.85rem;
-    color:white;
-    background-color:black;
-    opacity: 0.7;
-    border: none;
+    flex-direction: row;    
 }
