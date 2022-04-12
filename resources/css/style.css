@@ -148,5 +148,13 @@ main .students-cta h4 {
 
 main .students-cta .start-button {
     display: block;
-    padding: ;
+    width: 100%;
+    margin-top: 1.5rem;
+    padding: 0.44rem;
+    text-align: center;
+    font-size: 0.85rem;
+    color:white;
+    background-color:black;
+    opacity: 0.7;
+    border: none;
 }
