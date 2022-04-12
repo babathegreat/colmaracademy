@@ -138,13 +138,27 @@ header .navbar .mobile {
         width: 100%;
     }
 
+    .students-cta .start-button {
+        display: block;
+        width: 100%;
+        padding-top: 0.75rem;
+        padding-bottom: 0.75rem;
+        text-align: center;
+        font-size: 0.85rem;
+        font-weight: 900;
+        color:white;
+        background-color:black;
+        opacity: 0.3;
+        border: none;
+    }
+
 }
 
 
 /* Desktop version ruleset */
 @media only screen and (min-width: 601px) {    
 
-    main .learn-new {
+    .learn-new {
         margin-top: 4rem;
         display: flex;
         align-items: center;
@@ -153,15 +167,15 @@ header .navbar .mobile {
         width: 100%;
     }
 
-    main .learn-new .image-container {
+    .learn-new .image-container {
         width: 60%;
     }
 
-    main .learn-new .text-container {
+    .learn-new .text-container {
         margin-left: 1.3rem;
     }
 
-    main .learn-new .students-img {
+    .students-img {
         display: flex;
         flex: 1;
         flex-direction: column;
@@ -169,7 +183,7 @@ header .navbar .mobile {
         padding: 1.7rem 1.3rem;
     }
 
-    main .learn-new .students-cta {
+    .students-cta {
         display: flex;
         flex: 1;
         flex-wrap: wrap;
@@ -180,7 +194,7 @@ header .navbar .mobile {
         margin: auto 5rem auto 1.3rem;
     }
 
-    main .learn-new .students-cta h1 {
+    .students-cta h1 {
         font-size: 2rem;
         font-weight: 900;
         color: black;
@@ -189,7 +203,7 @@ header .navbar .mobile {
         width: 100%;
     }
 
-    main .learn-new .students-cta h4 {
+    .students-cta h4 {
         font-size: 1.15rem;
         font-weight: 500;
         color: black;
@@ -199,7 +213,7 @@ header .navbar .mobile {
         width: 100%;
     }
 
-    main .learn-new .students-cta .start-button {
+    .students-cta .start-button {
         display: block;
         width: 100%;
         margin-top: 1.5rem;
