@@ -113,19 +113,25 @@ header .navbar .mobile {
     main .learn-new {
         margin-top: 4rem;
         display: flex;
-        flex-direction: row;
         align-items: center;
-        justify-items: center;
-        flex-wrap: wrap;
+        justify-content: space-between;
         background-color:lightgray;
         width: 100%;
+    }
+
+    main .learn-new .image-container {
+        width: 60%;
+    }
+
+    main .learn-new .text-container {
+        
     }
 
     main .learn-new .students-img {
         display: flex;
         flex: 1;
         flex-direction: column;
-        max-width: 60%;
+        width: 60%;
         padding: 1.7rem 1.3rem;
     }
 
@@ -136,7 +142,7 @@ header .navbar .mobile {
         flex-direction: column;
         justify-items: center;
         align-items: flex-start;
-        max-width: 40%;
+        width: 40%;
         margin: auto 5rem auto 1.3rem;
     }
 
