@@ -260,6 +260,32 @@ main .main-container {
         flex-direction: column;
         width: 100%;
     }
+
+    .left-orientation h3 {
+        font-size: 1.8rem;
+        color: black;
+        font-weight: 900;
+        opacity: 0.8;
+        width: 100%;
+        margin-top: 1.7rem;
+        margin-bottom: 1.3rem;
+    }
+
+    .left-orientation p {
+        font-size: 1rem;
+        color: black;
+        opacity: 0.5;
+        width: 100%;
+    }
+
+    .left-orientation h2 {
+        font-size: 0.8rem;
+        color: black;
+        opacity: 0.8;
+        width: 100%;
+        margin-bottom: 1.7rem;
+    }
+
 }
 
 
