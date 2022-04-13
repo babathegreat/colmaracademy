@@ -306,12 +306,18 @@ main .main-container {
 
     .right-orientation-box {
         display: flex;
+        flex-direction: row;
         padding: 0.88rem 0.88rem;
     }
 
-    .right-orientation-box img {
+    .right-orientation-image {
+      
         height: auto;
         width: 35%;
+    }
+
+    .right-orientation-box img {
+        width: 100%;
     }
 
     .right-orientation-text {
