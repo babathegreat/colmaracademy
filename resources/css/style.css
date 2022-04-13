@@ -235,7 +235,7 @@ main .main-container {
 
     .orientation {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: space-between;
         /* Was missing width 100% why the image wouldn't align */
         width: 100%;
@@ -293,6 +293,13 @@ main .main-container {
         opacity: 0.8;
         width: 100%;
         margin-bottom: 1.7rem;
+    }
+
+    .right-orientation {
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        width: 40%;
     }
 
 }
