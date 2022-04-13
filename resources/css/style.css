@@ -239,11 +239,20 @@ main .main-container {
         justify-content: space-between;
         /* Was missing width 100% why the image wouldn't align */
         width: 100%;
+        
+    }
+
+    .left-orientation {
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        width: 60%;
+        border-right: solid lightgray;
         padding: 1.7rem 1.3rem;
     }
 
     .left-orientation .image-container {
-        width: 60%;
+        width: 100%;
     }
 
     .reading-img {
