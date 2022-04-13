@@ -170,6 +170,7 @@ main .main-container {
         justify-content: space-between;
         background-color:lightgray;
         width: 100%;
+        padding: 1.7rem 1.3rem;
     }
 
     .learn-new .image-container {
@@ -185,7 +186,7 @@ main .main-container {
         flex: 1;
         flex-direction: column;
         width: 100%;
-        padding: 1.7rem 1.3rem;
+        
     }
 
     .students-cta {
@@ -236,7 +237,9 @@ main .main-container {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        
+        /* Was missing width 100% why the image wouldn't align */
+        width: 100%;
+        padding: 1.7rem 1.3rem;
     }
 
     .left-orientation .image-container {
@@ -248,7 +251,14 @@ main .main-container {
         flex: 1;
         flex-direction: column;
         width: 100%;
-        padding: 1.7rem 1.3rem;
+        
+    }
+
+    .left-orientation .text-container {
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        width: 100%;
     }
 }
 
