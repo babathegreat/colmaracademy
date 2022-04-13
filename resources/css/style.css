@@ -300,6 +300,47 @@ main .main-container {
         flex: 1;
         flex-direction: column;
         width: 40%;
+        padding-top: 0.9rem;
+        padding-bottom: 1.7rem;
+    }
+
+    .right-orientation-box {
+        display: flex;
+        padding: 0.88rem 0.88rem;
+    }
+
+    .right-orientation-box img {
+        height: auto;
+        width: 35%;
+    }
+
+    .right-orientation-text {
+        display: flex;
+        flex-direction: column;
+        width: 65%;
+        justify-content: center;
+        padding-left: 1rem;
+    }
+
+    .right-orientation-text h4 {
+        font-size: 1.2rem;
+        font-weight: 500;
+        color: black;
+        opacity: 0.75;
+    }
+
+    .right-orientation-text h5 {
+        font-size: 0.9rem;
+        color: black;
+        opacity: 0.5;
+        padding-top: 0.9rem;
+        padding-bottom: 0.9rem;
+    }
+
+    .right-orientation-text a {
+        font-size: 0.9rem;
+        color:cornflowerblue;
+        opacity: 0.9;
     }
 
 }
