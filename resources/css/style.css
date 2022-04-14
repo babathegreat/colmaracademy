@@ -157,6 +157,37 @@ main .main-container {
         border: none;
     }
 
+    .orientation {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        
+    }
+
+    .left-orientation {
+        display: none;
+    }
+
+    .right-orientation { 
+        margin-left: 0.9rem;
+        padding-top: 0.9rem;
+        padding-bottom: 1.7rem;
+    }
+
+    .right-orientation-box,
+    .right-orientation-box-lecture {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 3.5rem;
+    }
+
+    .right-orientation hr {
+        display: none;
+    }
+
+    .right-orientation-image .desktop {
+        display: none;
+    }
 }
 
 
@@ -292,8 +323,7 @@ main .main-container {
         margin-bottom: 1.7rem;
     }
 
-    .right-orientation {
-       
+    .right-orientation { 
         width: 40%;
         padding-top: 0.9rem;
         padding-bottom: 1.7rem;
@@ -315,6 +345,10 @@ main .main-container {
     .right-orientation-image {
         height: auto;
         width: 35%;
+    }
+
+    .right-orientation-image .mobile{
+        display: none;
     }
 
     .right-orientation-box img,
