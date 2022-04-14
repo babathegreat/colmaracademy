@@ -446,11 +446,12 @@ main .main-container {
     }
 
     .start-learning .learn-boxes {
-        display: flex;
-        
-        justify-content: space-between;
-        
         margin: 1.7rem 4rem;
+    }
+
+    .start-learning .box-row {
+        display: flex;
+        justify-content: space-between;
     }
 
     .start-learning .learn-box {
@@ -463,6 +464,10 @@ main .main-container {
 
     .start-learning img {
         width: 100%;
+    }
+
+    .start-learning .learn-text {
+        background-color: white;
     }
 
 
