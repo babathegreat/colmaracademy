@@ -124,7 +124,7 @@ main .main-container {
     }
 
     .students-cta h1 {
-        font-size: 1.65rem;
+        font-size: 2rem;
         font-weight: 900;
         color: black;
         opacity: 0.7;
@@ -133,7 +133,7 @@ main .main-container {
     }
 
     .students-cta h4 {
-        font-size: 1.15rem;
+        font-size: 1.4rem;
         font-weight: 500;
         color: black;
         opacity: 0.7;
@@ -149,7 +149,7 @@ main .main-container {
         padding-top: 0.75rem;
         padding-bottom: 0.75rem;
         text-align: center;
-        font-size: 0.85rem;
+        font-size: 1rem;
         font-weight: 900;
         color:white;
         background-color:black;
@@ -170,24 +170,68 @@ main .main-container {
 
     .right-orientation { 
         margin-left: 0.9rem;
+        margin-right: 0.9rem;
         padding-top: 0.9rem;
         padding-bottom: 1.7rem;
+        
     }
 
     .right-orientation-box,
     .right-orientation-box-lecture {
         display: flex;
         flex-direction: column;
-        margin-bottom: 3.5rem;
+        margin-bottom: 2rem;
     }
 
     .right-orientation hr {
         display: none;
     }
 
+    .right-orientation-image {
+        margin-bottom: 1.7rem;
+    }
+
     .right-orientation-image .desktop {
         display: none;
     }
+
+    .right-orientation-image .mobile {
+        display: flex;
+        flex: 1;
+        width: 100%;
+    }
+
+    .right-orientation-text {
+        display: flex;
+        flex-direction: column;
+        width: 65%;
+        justify-content: center;
+        padding-left: 1rem;
+    }
+    
+    .right-orientation-text h4 {
+        font-size: 1.4rem;
+        font-weight: 500;
+        color: black;
+        opacity: 0.75;
+    }
+    
+    .right-orientation-text h5 {
+        font-size: 1rem;
+        color: black;
+        opacity: 0.5;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        line-height: 1.5;
+    }
+    
+    .right-orientation-text a {
+        font-size: 1rem;
+        color:cornflowerblue;
+        opacity: 0.9;
+    }
+   
+
 }
 
 
@@ -363,14 +407,14 @@ main .main-container {
         justify-content: center;
         padding-left: 1rem;
     }
-
+    
     .right-orientation-text h4 {
         font-size: 1.2rem;
         font-weight: 500;
         color: black;
         opacity: 0.75;
     }
-
+    
     .right-orientation-text h5 {
         font-size: 0.9rem;
         color: black;
@@ -378,20 +422,18 @@ main .main-container {
         padding-top: 0.9rem;
         padding-bottom: 0.9rem;
     }
-
+    
     .right-orientation-text a {
         font-size: 0.9rem;
         color:cornflowerblue;
         opacity: 0.9;
     }
+    
 
-    .right-orientation hr {
-        color: lightgrey;
-        width: 99%;
-        height: 1px;
-        border-style: solid none;
-    }
+
 }
+
+
 
 
 
