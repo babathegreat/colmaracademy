@@ -169,7 +169,6 @@ main .main-container {
         align-items: center;
         justify-content: space-between;
         background-color:lightgray;
-        width: 100%;
         padding: 1.7rem 1.3rem;
     }
 
@@ -186,7 +185,6 @@ main .main-container {
         flex: 1;
         flex-direction: column;
         width: 100%;
-        
     }
 
     .students-cta {
@@ -238,14 +236,13 @@ main .main-container {
         flex-direction: row;
         justify-content: space-between;
         /* Was missing width 100% why the image wouldn't align */
-        width: 100%;
+        /* Now removed to make the orientation area align with the above learning area */
+
+        /* width: 100%; */
         
     }
 
     .left-orientation {
-        display: flex;
-        flex: 1;
-        flex-direction: column;
         width: 60%;
         border-right: solid lightgray;
         padding: 1.7rem 1.3rem;
@@ -296,9 +293,7 @@ main .main-container {
     }
 
     .right-orientation {
-        display: flex;
-        flex: 1;
-        flex-direction: column;
+       
         width: 40%;
         padding-top: 0.9rem;
         padding-bottom: 1.7rem;
@@ -310,13 +305,20 @@ main .main-container {
         padding: 0.88rem 0.88rem;
     }
 
+    .right-orientation-box-lecture {
+        background-color: lightgray;  
+        display: flex;
+        flex-direction: row;
+        padding: 0.88rem 0.88rem;
+    }
+
     .right-orientation-image {
-      
         height: auto;
         width: 35%;
     }
 
-    .right-orientation-box img {
+    .right-orientation-box img,
+    .right-orientation-box-lecture img {
         width: 100%;
     }
 
@@ -349,6 +351,12 @@ main .main-container {
         opacity: 0.9;
     }
 
+    .right-orientation hr {
+        color: lightgrey;
+        width: 99%;
+        height: 1px;
+        border-style: solid none;
+    }
 }
 
 
