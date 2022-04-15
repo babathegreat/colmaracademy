@@ -231,9 +231,18 @@ main .main-container {
         opacity: 0.9;
     }
 
+    .start-learning {
+        border-top: 1px solid lightgray;
+        border-bottom: 1px solid lightgray;
+    }
+
     /* Hide all the start learning images */
     .start-learning .learn-image {
         display: none;
+    }
+
+    .start-learning .learn-boxes {
+        margin-bottom: 1.77rem;
     }
 
     .start-learning .learn-text {
@@ -243,10 +252,19 @@ main .main-container {
         margin: 0 0.44rem 0.44rem 0.44rem;
     }
 
+    .start-learning .learn-text h3 {
+        font-size: 1.4rem;
+        font-weight: 500;
+        color: black;
+        opacity: 0.75;
+        padding: 0.88rem 0.88rem;
+    }
+
     .start-learning .learn-text h4,
     .start-learning .learn-text p {
         display: none;
     }
+
 }
 
 
@@ -446,10 +464,7 @@ main .main-container {
     
     .start-learning {
         background-color: rgb(240, 236, 236);
-        
     }
-
-   
 
     .start-learning .learn-boxes {
         margin: 0rem 4rem;
@@ -489,6 +504,14 @@ main .main-container {
         padding-bottom: 0rem;
         line-height: 1.5;
     }
+
+    .start-learning .learn-text h3 {
+        font-size: 1.1rem;
+        font-weight: 500;
+        color: black;
+        opacity: 0.75;
+    
+    }
 }
 
 
@@ -504,10 +527,3 @@ main .main-container {
     padding-bottom: 1.7rem;
 }
 
-.start-learning .learn-text h3 {
-    font-size: 1.1rem;
-    font-weight: 500;
-    color: black;
-    opacity: 0.75;
-
-}
