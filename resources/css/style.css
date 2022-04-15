@@ -231,6 +231,22 @@ main .main-container {
         opacity: 0.9;
     }
 
+    /* Hide all the start learning images */
+    .start-learning .learn-image {
+        display: none;
+    }
+
+    .start-learning .learn-text {
+        flex: 1;
+        background-color: lightgray;
+        padding: 0.88rem 0.88rem 1.3rem 0.88rem;
+        margin: 0 0.44rem 0.44rem 0.44rem;
+    }
+
+    .start-learning .learn-text h4,
+    .start-learning .learn-text p {
+        display: none;
+    }
 }
 
 
@@ -433,17 +449,7 @@ main .main-container {
         
     }
 
-    .start-learning .start {
-        display: flex;
-        justify-content: center;
-        width: 100%;
-        font-size: 1.8rem;
-        color: black;
-        opacity: 0.8;
-        font-weight: 900;
-        padding-top: 1.7rem;
-        padding-bottom: 1.7rem;
-    }
+   
 
     .start-learning .learn-boxes {
         margin: 0rem 4rem;
@@ -473,14 +479,7 @@ main .main-container {
         background-color: white;
         padding: 0.88rem 0.88rem 1.3rem 0.88rem;
     }
-
-    .start-learning .learn-text h3 {
-        font-size: 1.1rem;
-        font-weight: 500;
-        color: black;
-        opacity: 0.75;
-        
-    }
+    
     .start-learning .learn-text h4,
     .start-learning .learn-text p {
         font-size: 0.8rem;
@@ -493,6 +492,22 @@ main .main-container {
 }
 
 
+.start-learning .start {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 1.8rem;
+    color: black;
+    opacity: 0.8;
+    font-weight: 900;
+    padding-top: 1.7rem;
+    padding-bottom: 1.7rem;
+}
 
+.start-learning .learn-text h3 {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: black;
+    opacity: 0.75;
 
-
+}
