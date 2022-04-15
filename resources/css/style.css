@@ -265,6 +265,18 @@ main .main-container {
         display: none;
     }
 
+    .thesis-exhibit .right-exhibit {
+        display: none;
+    }
+
+    .thesis-exhibit .left-exhibit .text-box {
+        display: none;
+    }
+
+    .thesis-exhibit .left-exhibit {
+        margin-bottom: 1.3rem;
+    }
+
 }
 
 
