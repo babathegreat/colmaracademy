@@ -597,3 +597,37 @@ hr {
     border: 1px solid lightgray;
     width: 99%;
 }
+
+.footer {
+    display: inline-flex;
+    margin: 0.88rem 1.3rem;
+    font-size: 0.8rem;
+    color: black;
+    opacity: 0.6;
+    width: 95%;
+   
+}
+
+.footer h4 {
+    display: inline-flex;
+    width: 100%;
+}
+
+.footer .terms {
+    display: inline-flex;
+    justify-content: flex-end;
+  
+  
+}
+
+.footer .terms ul {
+    display: inline-flex;
+    list-style: none;
+    width: 100%;
+    justify-content: flex-end;
+   
+}
+
+.footer .terms a {
+    padding-left: 0.88rem;
+}
