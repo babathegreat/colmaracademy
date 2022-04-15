@@ -516,14 +516,15 @@ main .main-container {
         opacity: 0.75;
     }
 
-    .left-exhibit {
-        margin: 1.7rem 1.3rem 1.3rem 1.3rem;
+    .thesis-exhibit .exhibit-items {
+        display: flex;
     }
 
     .thesis-exhibit .left-exhibit {
         display: flex;
         flex: 1;
         width: 60%;
+        margin: 1.7rem 1.3rem 1.3rem 1.3rem;
     }
 
     .thesis-exhibit .left-exhibit-panel,
@@ -536,14 +537,18 @@ main .main-container {
         display: flex;
         flex: 1;
         width: 40%;
+        margin-top: 1.7rem;
     }
 
-    .thesis-exhibit .right-exhibit .exhibit-image {
+    .thesis-exhibit .right-exhibit img {
         width: 35%;
         margin: 0.88rem 0.88rem;
     }
 
     .thesis-exhibit .right-exhibit .exhibit-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         width: 65%;
     }
 
@@ -553,7 +558,12 @@ main .main-container {
     }
 
     .thesis-exhibit .right-exhibit .exhibit-box {
+        display: flex;
         background-color: lightgray;
+    }
+
+    .thesis-exhibit .right-exhibit .exhibit-box-nobackground {
+        display: flex;
     }
    
 }
