@@ -446,7 +446,7 @@ main .main-container {
     }
 
     .start-learning .learn-boxes {
-        margin: 1.7rem 4rem;
+        margin: 0rem 4rem;
     }
 
     .start-learning .box-row {
@@ -459,7 +459,7 @@ main .main-container {
         display: flex;
         flex-direction: column;
         /* set this margin on the box to put space between the boxes */
-        margin-right: 1.7rem;
+        margin: 0rem 0.88rem;
         /* need width to 100% to make the boxes all equal size otherwise are non-proportional */
         width: 100%;
     }
