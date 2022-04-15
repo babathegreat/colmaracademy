@@ -496,7 +496,8 @@ main .main-container {
     }
     
     .start-learning .learn-text h4,
-    .start-learning .learn-text p {
+    .start-learning .learn-text p,
+    .thesis-exhibit .text-box p {
         font-size: 0.8rem;
         color: black;
         opacity: 0.4;
@@ -505,17 +506,38 @@ main .main-container {
         line-height: 1.5;
     }
 
-    .start-learning .learn-text h3 {
+    .start-learning .learn-text h3,
+    .thesis-exhibit .text-box h3 {
         font-size: 1.1rem;
         font-weight: 500;
         color: black;
         opacity: 0.75;
-    
     }
+
+    .left-exhibit {
+        margin: 1.7rem 1.3rem 1.3rem 1.3rem;
+    }
+
+    .thesis-exhibit .left-exhibit {
+        display: flex;
+        flex: 1;
+        width: 60%;
+    }
+
+    .thesis-exhibit .left-exhibit-panel {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .thesis-exhibit .text-box {
+        margin-top: 1.3rem;
+        margin-bottom: 1.7rem;
+    }
+   
 }
 
-
-.start-learning .start {
+.start-learning .start,
+.thesis-exhibit .exhibit{
     display: flex;
     justify-content: center;
     width: 100%;
