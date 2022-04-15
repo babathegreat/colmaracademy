@@ -497,7 +497,8 @@ main .main-container {
     
     .start-learning .learn-text h4,
     .start-learning .learn-text p,
-    .thesis-exhibit .text-box p {
+    .thesis-exhibit .text-box p,
+    .thesis-exhibit .exhibit-text p {
         font-size: 0.8rem;
         color: black;
         opacity: 0.4;
@@ -507,7 +508,8 @@ main .main-container {
     }
 
     .start-learning .learn-text h3,
-    .thesis-exhibit .text-box h3 {
+    .thesis-exhibit .text-box h3,
+    .thesis-exhibit .exhibit-text h3{
         font-size: 1.1rem;
         font-weight: 500;
         color: black;
@@ -524,14 +526,34 @@ main .main-container {
         width: 60%;
     }
 
-    .thesis-exhibit .left-exhibit-panel {
+    .thesis-exhibit .left-exhibit-panel,
+    .thesis-exhibit .right-exhibit-pantel {
         display: flex;
         flex-direction: column;
+    }
+
+    .thesis-exhibit .right-exhibit {
+        display: flex;
+        flex: 1;
+        width: 40%;
+    }
+
+    .thesis-exhibit .right-exhibit .exhibit-image {
+        width: 35%;
+        margin: 0.88rem 0.88rem;
+    }
+
+    .thesis-exhibit .right-exhibit .exhibit-text {
+        width: 65%;
     }
 
     .thesis-exhibit .text-box {
         margin-top: 1.3rem;
         margin-bottom: 1.7rem;
+    }
+
+    .thesis-exhibit .right-exhibit .exhibit-box {
+        background-color: lightgray;
     }
    
 }
