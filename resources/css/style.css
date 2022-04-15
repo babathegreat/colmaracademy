@@ -452,14 +452,16 @@ main .main-container {
     .start-learning .box-row {
         display: flex;
         justify-content: space-between;
+        margin-bottom: 1.7rem;
     }
 
     .start-learning .learn-box {
         display: flex;
-        flex: 1;
         flex-direction: column;
         /* set this margin on the box to put space between the boxes */
         margin-right: 1.7rem;
+        /* need width to 100% to make the boxes all equal size otherwise are non-proportional */
+        width: 100%;
     }
 
     .start-learning img {
@@ -467,6 +469,7 @@ main .main-container {
     }
 
     .start-learning .learn-text {
+        flex: 1;
         background-color: white;
         padding: 0.88rem 0.88rem 1.3rem 0.88rem;
     }
