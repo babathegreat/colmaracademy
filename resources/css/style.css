@@ -433,7 +433,7 @@ main .main-container {
         
     }
 
-    .start-learning h3 {
+    .start-learning .start {
         display: flex;
         justify-content: center;
         width: 100%;
@@ -468,9 +468,25 @@ main .main-container {
 
     .start-learning .learn-text {
         background-color: white;
+        padding: 0.88rem 0.88rem 1.3rem 0.88rem;
     }
 
-
+    .start-learning .learn-text h3 {
+        font-size: 1.1rem;
+        font-weight: 500;
+        color: black;
+        opacity: 0.75;
+        
+    }
+    .start-learning .learn-text h4,
+    .start-learning .learn-text p {
+        font-size: 0.8rem;
+        color: black;
+        opacity: 0.4;
+        padding-top: 0.6rem;
+        padding-bottom: 0rem;
+        line-height: 1.5;
+    }
 }
 
 
