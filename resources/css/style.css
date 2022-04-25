@@ -277,6 +277,15 @@ main .main-container {
         margin-bottom: 1.3rem;
     }
 
+    .footer li {
+        display: none;
+    }
+
+    .footer h4 {
+        text-align: center;
+        width: 100%;
+    }
+
 }
 
 
@@ -577,6 +586,12 @@ main .main-container {
     .thesis-exhibit .right-exhibit .exhibit-box-nobackground {
         display: flex;
     }
+
+    .footer h4 {
+        display: inline-flex;
+        width: 100%;
+    }
+
    
 }
 
@@ -608,10 +623,7 @@ hr {
    
 }
 
-.footer h4 {
-    display: inline-flex;
-    width: 100%;
-}
+
 
 .footer .terms {
     display: inline-flex;
